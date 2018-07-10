@@ -1,0 +1,10 @@
+* {
+    width: 100%;
+    box-sizing: border-box; /*instructor said set this aside*/ 
+
+}
+
+.slider-checkbox {
+    width: 3em;
+    height: 1em; /* 1em = 16px */ 
+}
