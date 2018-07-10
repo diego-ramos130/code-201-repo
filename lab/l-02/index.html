@@ -5,10 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="app.js"></script> 
 </head>
 <body>
-    
+    <header></header>
+
+    <main>
+
+
+
+
+    </main>
+
+    <footer></footer>
+
+    <script>
+        var userTime= prompt('What hour is it? (in military time)');
+        var userAge = prompt(userTime + ' , Huh. How old are you?');
+
+        if (userAge < 18 &&  userTime >= 20) {
+            alert('It\'s past your bedtime!');
+        } else {
+            alert('Have a nice day!')
+        }
+    </script>
 </body>
 </html>
